@@ -79,8 +79,3 @@ streamlit run app/streamlit_app.py
 - The training script will create lag/rolling features and one-hot encode categorical columns.
 
 ---
-
-## Resume-ready bullet template
-- Built a short-term load forecasting pipeline using 15-minute demand data with exogenous weather/calendar variables; implemented seasonal baseline and gradient boosting model.
-- Engineered lag and rolling statistical features to capture daily demand seasonality; evaluated performance using MAPE/RMSE with walk-forward holdout.
-- Produced next-day peak demand predictions and visualized forecast vs actual via an interactive Streamlit dashboard.
